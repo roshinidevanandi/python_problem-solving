@@ -1,7 +1,10 @@
-def str_fun(str,k):
-    for i in range(len(str)-1,-1,-1):
-        print(str[i],k)
-        print(k)
-str=input("enter the string here: ")
-num=int(input("enter the number here: "))
-str_fun(str,num)
+# "Write a Python function that takes a string and an integer k, and returns the string after rotating it to the right
+#  by k positions."
+def round_string(s,k):
+    rotated=s[-k:]+s[:-k]
+    print(rotated)
+
+
+str=input("Enter the string: ")
+number=int(input("Enter the num: "))
+round_string(str,number)
