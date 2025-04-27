@@ -123,6 +123,8 @@
 
 
 # map
+# The map() function is a built-in Python function that takes a function and an iterable (like a list, tuple, etc.) and returns 
+# a map object (which is an iterator) that applies the given function to each item in the iterable.
 # l=[1,2,3,4,5,6]
 # mul=map(lambda x:x*3,l)
 # print(list(mul))
@@ -148,3 +150,8 @@
 #     print(c)
 # fun1(l)
 
+
+# s1 = "Hello"
+# s2 = "World"
+# s3 = s1 + " " + s2
+# print(s3)
