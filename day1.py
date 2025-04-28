@@ -1,29 +1,29 @@
 # 1.how to work for loop
 
-# fruits=["apple","banana","kiwi"]
-# iter_obj=iter(fruits)
+fruits=["apple","banana","kiwi"]
+iter_obj=iter(fruits)
 
-# while True:
-#     try:
-#         fruit=next(iter_obj)
-#         print(fruit)
-#     except StopIteration:
-#         break
+while True:
+    try:
+        fruit=next(iter_obj)
+        print(fruit)
+    except StopIteration:
+        break
 
 
 # 2.print prime numbers in beetween 1 to 100
 
-# try:
-#     for i in range(2,100):
-#         is_prime=True
-#         for j in range(2,i):
-#             if i%j==0:
-#                 is_prime=False
-#                 break
-#         if is_prime:
-#             print(i)
-# except Exception as e:
-#     print(e)
+try:
+    for i in range(2,100):
+        is_prime=True
+        for j in range(2,i):
+            if i%j==0:
+                is_prime=False
+                break
+        if is_prime:
+            print(i)
+except Exception as e:
+    print(e)
 
 
 # 3.print first 10 prime numbers
