@@ -1,5 +1,23 @@
 # Example1:
 
+# class and object
+
+# class Movie:
+#     def __init__(self,name,hero,release_date):
+#         self.name=name
+#         self.hero=hero
+#         self.release_date=release_date
+#     def release(self):
+#         print(f"The {self.name} movie hero is {self.hero} and movie released in {self.release_date}")
+
+
+# m1=Movie("salar","prabhas",2023)
+# m2=Movie("hit","nani",2025)
+
+# m1.release()       
+# m2.release()
+
+
 # class Student:
 #     def __init__(self,m1,m2,m3):
 #         self.m1=m1
