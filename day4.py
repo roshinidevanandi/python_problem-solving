@@ -13,7 +13,7 @@ class A:
 class B(A):
     def sub(self):
         print(f"subtraction of two numbers is:{self.a-self}")
-a1=A(8,6)
+a1=(8,6)
 a2=A(9,3)
 
 a1.add()
