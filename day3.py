@@ -103,19 +103,20 @@
 
 # Example 4:
 
-# class Car:
-#     wheels=4
 
-#     def __init__(self):
-#         self.mil=10
-#         self.com="BMW"
+class Car:
+    wheels=4
 
-# c1=Car()
-# c2=Car()
+    def __init__(self):
+        self.mil=10
+        self.com="BMW"
 
-# print(c1.mil)
-# print(c1.com)
-# print(Car.wheels)
+c1=Car()
+c2=Car()
+
+print(c1.mil)
+print(c1.com)
+print(Car.wheels)
 
 
 # Example 5:
