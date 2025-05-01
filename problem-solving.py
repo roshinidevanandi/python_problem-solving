@@ -25,15 +25,16 @@
 
 # 2.Transpose a matrix (rows become columns).
 # Method_1
-# matrix = [[1, 2], [3, 4], [5, 6]]
-# transpose=[]
-# for i in range(len(matrix[0])): 
-#     one=[]   
-#     for j in range(len(matrix)):
-#         one.append(matrix[j][i])
-#     transpose.append(one)
-# for row in transpose:
-#     print(row)
+
+matrix = [[1, 2], [3, 4], [5, 6]]
+transpose=[]
+for i in range(len(matrix[0])): 
+    one=[]   
+    for j in range(len(matrix)):
+        one.append(matrix[j][i])
+    transpose.append(one)
+for row in transpose:
+    print(row)
 
 
 # Method_2
