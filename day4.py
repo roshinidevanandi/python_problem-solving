@@ -49,30 +49,30 @@
 # multi-level inheritance:
 
 
-class A:
-    def __init__(self,a,b):
-        self.a=a
-        self.b=b
-    def add(self):
-        print(f"addition of two numbers is:{self.a+self.b}")
+# class A:
+#     def __init__(self,a,b):
+#         self.a=a
+#         self.b=b
+#     def add(self):
+#         print(f"addition of two numbers is:{self.a+self.b}")
 
-class B(A):
-    def __init__(self,a,b):
-        self.a=a
-        self.b=b
-    def sub(self):
-        print(f"subtraction of two numbers is:{self.a-self.b}")
+# class B(A):
+#     def __init__(self,a,b):
+#         self.a=a
+#         self.b=b
+#     def sub(self):
+#         print(f"subtraction of two numbers is:{self.a-self.b}")
 
-class C(B):
-    def mul(self):
-        print(f"Multiplication of two numbers is:{self.a*self.b}")
+# class C(B):
+#     def mul(self):
+#         print(f"Multiplication of two numbers is:{self.a*self.b}")
 
 
-a1=C(8,6)
-a2=C(9,3)
-a1.add()
-a1.sub()
-a1.mul()
+# a1=C(8,6)
+# a2=C(9,3)
+# a1.add()
+# a1.sub()
+# a1.mul()
 
 
 # Hierarchical inheritance:
