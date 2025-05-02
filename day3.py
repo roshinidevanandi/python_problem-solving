@@ -90,7 +90,6 @@
 #         else:
 #             return False
         
-
 # emp1=Employee()
 # emp1.age=23
 # emp2=Employee()
@@ -102,7 +101,6 @@
 
 
 # Example 4:
-
 
 class Car:
     wheels=4
