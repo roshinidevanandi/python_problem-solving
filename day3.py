@@ -141,15 +141,14 @@ print(Car.wheels)
 #     def get_m1(self):
 #         print(self.m1)
 
-    
 #     def set_m1(self,value):
 #         self.m1=value
 #         print(self.m1)
+
 # std1=Student(65,86,98)
 # std2=Student(64,82,99)
 # print(std1.avg())
 # print(std2.avg())
-
 
 # std1.get_m1()
 
