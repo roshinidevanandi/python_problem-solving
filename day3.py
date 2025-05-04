@@ -126,28 +126,27 @@ print(Car.wheels)
 # If you want to modifies any change we use set method is called mutator method
 
 
+class Student:
+    def __init__(self,m1,m2,m3):
+        self.m1=m1
+        self.m2=m2
+        self.m3=m3
 
-# class Student:
-#     def __init__(self,m1,m2,m3):
-#         self.m1=m1
-#         self.m2=m2
-#         self.m3=m3
-
-#     def avg(self):
-#         return (self.m1+self.m2+self.m3)/3
+    def avg(self):
+        return (self.m1+self.m2+self.m3)/3
     
-#     def get_m1(self):
-#         print(self.m1)
+    def get_m1(self):
+        print(self.m1)
 
-#     def set_m1(self,value):
-#         self.m1=value
-#         print(self.m1)
+    def set_m1(self,value):
+        self.m1=value
+        print(self.m1)
 
-# std1=Student(65,86,98)
-# std2=Student(64,82,99)
-# print(std1.avg())
-# print(std2.avg())
+std1=Student(65,86,98)
+std2=Student(64,82,99)
+print(std1.avg())
+print(std2.avg())
 
-# std1.get_m1()
+std1.get_m1()
 
-# std1.set_m1(99)
+std1.set_m1(99)
