@@ -58,46 +58,46 @@
 
 # Example 3: static method
 
-# class Student:
-#     school="ZPHS SCHOOL"
+class Student:
+    school="ZPHS SCHOOL"
 
-#     def __init__(self,m1,m2,m3):
-#         self.m1=m1
-#         self.m2=m2
-#         self.m3=m3
+    def __init__(self,m1,m2,m3):
+        self.m1=m1
+        self.m2=m2
+        self.m3=m3
 
-#     @staticmethod
-#     def school_info():
-#         print("helo i am roshini")
+    @staticmethod
+    def school_info():
+        print("helo i am roshini")
         
-# std1=Student(43,23,89)
-# std2=Student(43,34,21)
-# Student.school_info()  
+std1=Student(43,23,89)
+std2=Student(43,34,21)
+Student.school_info()  
 
 
 
-# compare two objects are the same or not       
+compare two objects are the same or not       
 
-# class Employee:
+class Employee:
 
-#     def __init__(self):
-#         self.name="rosy"
-#         self.age=22
+    def __init__(self):
+        self.name="rosy"
+        self.age=22
 
-#     def compare(self,other):
-#         if self.age==other.age:
-#             return True
-#         else:
-#             return False
+    def compare(self,other):
+        if self.age==other.age:
+            return True
+        else:
+            return False
         
-# emp1=Employee()
-# emp1.age=23
-# emp2=Employee()
+emp1=Employee()
+emp1.age=23
+emp2=Employee()
 
-# if emp1.compare(emp2):
-#     print("both are the same")
-# else:
-#     print("both are the different")
+if emp1.compare(emp2):
+    print("both are the same")
+else:
+    print("both are the different")
 
 
 # Example 4:
