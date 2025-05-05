@@ -92,11 +92,11 @@ except Exception as e:
 
 # Higher order function examples
 # example1:
-# def sub(a,b):
-#     return a-b
-# def fun(sub,x,y):
-#     return sub(x,y)
-# print(fun(sub,12,8))
+def sub(a,b):
+    return a-b
+def fun(sub,x,y):
+    return sub(x,y)
+print(fun(sub,12,8))
 
 # example2:
 # def msg(name):
