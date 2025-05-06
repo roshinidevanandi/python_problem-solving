@@ -57,8 +57,8 @@ is_prime(n)
 
 
 # using lamda function
-# sq=lambda x:x**2
-# print(sq(2))
+sq=lambda x:x**2
+print(sq(2))
 
 # using def
 # def sq(x):
