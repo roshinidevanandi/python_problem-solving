@@ -41,19 +41,19 @@ while count<n:
     x+=1
 
 # method2:          
-# def is_prime(n):
-#     x=2
-#     count=0
-#     while count<n:
-#         for i in range(2,int(x**0.5)+1):
-#             if x%i==0:
-#                 break
-#         else:
-#             print(x)
-#             count+=1
-#         x+=1
-# n=10
-# is_prime(n)
+def is_prime(n):
+    x=2
+    count=0
+    while count<n:
+        for i in range(2,int(x**0.5)+1):
+            if x%i==0:
+                break
+        else:
+            print(x)
+            count+=1
+        x+=1
+n=10
+is_prime(n)
 
 
 # using lamda function
