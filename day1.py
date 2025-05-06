@@ -28,17 +28,17 @@ except Exception as e:
 
 # 3.print first 10 prime numbers
 
-# x=2
-# count=0
-# n=10
-# while count<n:
-#     for i in range(2,x):
-#         if x%i==0:
-#             break
-#     else:
-#         print(x)
-#         count+=1
-#     x+=1
+x=2
+count=0
+n=10
+while count<n:
+    for i in range(2,x):
+        if x%i==0:
+            break
+    else:
+        print(x)
+        count+=1
+    x+=1
 
 # method2:          
 # def is_prime(n):
