@@ -55,6 +55,20 @@ def is_prime(n):
 n=10
 is_prime(n)
 
+# method3:
+num=9
+count=0
+while count<5:
+    num+=1
+    is_prime=True
+    for i in range(2,num):
+        if num%i==0:
+            is_prime=False
+            break
+    if is_prime:
+        count+=1
+        print(num)
+
 
 # using lamda function
 sq=lambda x:x**2
