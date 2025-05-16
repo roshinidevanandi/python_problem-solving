@@ -1,6 +1,5 @@
 import math
 
-
 # print length of the number
 
 num=123456789
