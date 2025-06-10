@@ -25,7 +25,6 @@ try:
 except Exception as e:
     print(e)
 
-
 # 3.print first 10 prime numbers
 
 x=2
@@ -89,7 +88,6 @@ def fibonacci(n):
     else:
         return fibonacci(n-1)+fibonacci(n-2)
 print(fibonacci(2))
-
 
 # 5.factorial
 
