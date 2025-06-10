@@ -10,7 +10,6 @@ while True:
     except StopIteration:
         break
 
-
 # 2.print prime numbers in beetween 1 to 100
 
 try:
@@ -67,7 +66,6 @@ while count<5:
     if is_prime:
         count+=1
         print(num)
-
 
 # using lamda function
 sq=lambda x:x**2
