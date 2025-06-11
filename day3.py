@@ -31,7 +31,6 @@
 # print(std1.avg())
 # print(std2.avg())
 
-
 # Example2: class methods and class variables
 
 class Student:
@@ -54,7 +53,6 @@ print(std1.avg())
 print(std2.avg())
 Student.info()
 
-
 # Example 3: static method
 
 class Student:
@@ -75,7 +73,7 @@ Student.school_info()
 
 
 
-compare two objects are the same or not       
+# compare two objects are the same or not       
 
 class Employee:
 
