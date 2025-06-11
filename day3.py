@@ -72,7 +72,6 @@ std2=Student(43,34,21)
 Student.school_info()  
 
 
-
 # compare two objects are the same or not       
 
 class Employee:
