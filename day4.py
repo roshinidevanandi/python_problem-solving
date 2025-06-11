@@ -47,7 +47,6 @@ a1.mul()
 
 # multi-level inheritance:
 
-
 # class A:
 #     def __init__(self,a,b):
 #         self.a=a
