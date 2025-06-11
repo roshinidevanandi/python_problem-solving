@@ -1,7 +1,6 @@
 # Example1:
 
 # class and object
-
 # class Movie:
 #     def __init__(self,name,hero,release_date):
 #         self.name=name
