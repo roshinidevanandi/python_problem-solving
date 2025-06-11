@@ -1,6 +1,5 @@
 # Inheritance:
 # Inheritance allows a class (child class) to acquire properties and methods of another class (parent class).
-
 # single inheritance:
 
 class A:
